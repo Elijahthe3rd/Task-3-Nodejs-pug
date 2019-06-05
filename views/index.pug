@@ -1,0 +1,27 @@
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Campatible', content='Chromium web browser')
+    link(rel='stylesheet', type='text/css', href='./style.css')
+    title Weather App
+  body
+    section
+      .DefaultHeader
+        .DefaultHeader
+          h1#DefaultHead.DefaultHead Weather Forecast Updates 
+    #searchContainer
+      input#searchInput.searchControl(type='text', placeholder='City Name/Zip Code')
+      button#searchBtn.searchControl  Search 
+    .weatherContainer
+      .weatherDescription
+        h1#cityHead.cityHeader  
+        #WeatherMain
+          #temperature
+          #weatherDescriptionHeader
+          div
+            img#documentIconImg
+        hr
+        #windSpeed.button-details
+        #humidity.button-details
+    script(src='script.js')
